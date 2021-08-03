@@ -33,7 +33,6 @@ class Cannonfield {
     return (this.isCannon = false);
   };
   createCircle = (e, radius, color) => {
-    console.log(1);
     this.ctx.beginPath();
     this.ctx.arc(e.x, e.y, radius, 0, Math.PI * 2);
     this.ctx.fillStyle = color;
