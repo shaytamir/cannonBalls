@@ -139,7 +139,7 @@ Cannonfield.prototype.addToHtml = function () {
         function shootBalls() {
           const timeout = setInterval(function () {
             createBullet(e);
-          }, 5);
+          }, 16.6666);
           document.getElementById(div_name).addEventListener("mouseup", () => {
             clearInterval(timeout);
             document
