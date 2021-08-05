@@ -40,7 +40,7 @@ function handleMouseUp(e) {
   }
 }
 
-export function MouseHandler() {
+function MouseHandler() {
   this.left = new ButtonState();
   this.middle = new ButtonState();
   this.right = new ButtonState();
@@ -57,4 +57,4 @@ MouseHandler.prototype.reset = () => {
   this.right.pressed = false;
 };
 
-export let mouse = new MouseHandler();
+let mouse = new MouseHandler();

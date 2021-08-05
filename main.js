@@ -1,4 +1,4 @@
-import { newCannonfield } from "./service.js";
+// import { newCannonfield } from "./service.js";
 
 const div1 = newCannonfield("div", "red", "green", "div1", 400, 200);
 const div2 = newCannonfield("div", "blue", "purple", "div2", 400, 400);

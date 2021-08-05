@@ -1,4 +1,4 @@
-import { mouse } from "./mouseState.js";
+// import { mouse } from "./mouseState.js";
 
 class Cannonfield {
   constructor(elem, color1, color2, div_name, _width, _height) {
@@ -161,14 +161,7 @@ Cannonfield.prototype.addToHtml = function () {
   });
 };
 
-export function newCannonfield(
-  elem,
-  color1,
-  color2,
-  div_name,
-  _width,
-  _height
-) {
+function newCannonfield(elem, color1, color2, div_name, _width, _height) {
   let cannonfield = new Cannonfield(
     elem,
     color1,
